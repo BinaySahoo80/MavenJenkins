@@ -3,6 +3,13 @@
   <groupId>com.maven</groupId>
   <artifactId>MyMavenApp</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+	<dependencies>
+   <dependency>
+    <groupId>org.codehaus.plexus</groupId>
+    <artifactId>plexus</artifactId>
+    <version>3.3.1</version>
+   </dependency>
+</dependencies>
   <build>
 		<plugins>
 			<plugin>
